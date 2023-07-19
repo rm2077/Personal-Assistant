@@ -22,7 +22,7 @@ def speech_to_text():
 def get_openai_response(prompt):
   response = openai.Completion.create(
     engine="text-davinci-003",
-    prompt=f"Your name is Siri. You are a helpful virtual assistant. You are an AI and you have to respond to this: {prompt}",
+    prompt=f"Your name is Voxi. You are a helpful virtual assistant. You are an AI and you have to respond to this: {prompt}",
     temperature=0.9,
     max_tokens=150,
     top_p=1,
